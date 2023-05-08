@@ -1,0 +1,30 @@
+{
+  "name": "icekey",
+  "version": "0.0.1",
+  "description": "Crypto data checker",
+  "main": "src/index.ts",
+  "keywords": [
+    "crypto",
+    "data",
+    "checker",
+    "lineardev"
+  ],
+  "scripts": {
+    "dev": "npx nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "author": "Eugene K (ceo@lineardev.net)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/node": "^20.1.0",
+    "nodemon": "^2.0.22",
+    "rimraf": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
