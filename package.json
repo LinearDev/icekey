@@ -1,8 +1,9 @@
 {
   "name": "icekey",
-  "version": "0.0.1",
+  "version": "1.0.4",
   "description": "Crypto data checker",
-  "main": "src/index.ts",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "keywords": [
     "crypto",
     "data",
@@ -17,7 +18,6 @@
   "author": "Eugene K (ceo@lineardev.net)",
   "license": "ISC",
   "devDependencies": {
-    "@types/crypto-js": "^4.1.1",
     "@types/node": "^20.1.0",
     "nodemon": "^2.0.22",
     "rimraf": "^5.0.0",
@@ -25,6 +25,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@types/crypto-js": "^4.1.1",
     "crypto-js": "^4.1.1"
   }
 }
